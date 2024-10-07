@@ -15,7 +15,7 @@ g++ main.cpp -o rovnice
 ### option 2 instalace
 ~~~ shell
 git clone https://github.com/Overionised/quadratic-function
-cd Problem-dvou-dzbanu
+cd quadratic-function
 g++ main.cpp -o rovnice
 sudo cp rovnice /usr/bin/
 ~~~
