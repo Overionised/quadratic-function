@@ -102,4 +102,5 @@ int main() {
             cout << "x1 se rovna = " << x1 << "\n x2 se rovna = " << x2 << "\n";
         }
     }
+	return 0;
 }
