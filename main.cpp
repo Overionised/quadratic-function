@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cmath>
+#include <complex>
 
 using namespace std;
 
@@ -95,7 +96,10 @@ int main() {
         calculator();
         silly();
         if (isnan(x1) || isnan(x2)) {
-            cout << "nema reseni v R\n";
+		cout<<"still working on that"<<endl;
+            //x1 = (-b + std::sqrt(std::complex<double>((b * b) - (4 * a * c), 0))) / (2.0 * a);
+            //x2 = (-b - std::sqrt(std::complex<double>((b * b) - (4 * a * c), 0))) / (2.0 * a);
+
         } else if (x1 == x2) {
             cout << "obe dve x jsou shodna a jejich hodnota je : " << x1 <<endl;
         } else {
