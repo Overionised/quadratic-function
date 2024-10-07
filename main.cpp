@@ -101,6 +101,6 @@ int main() {
             cout << "x1 se rovna = " << x1 << "\n x2 se rovna = " << x2 << "\n";
         }
     }
-    else { x1 = -c/b; cout<< "x se rovna : "<<x1<<"rovnice je linearni"<<endl;  }
+    else { x1 = -c/b; silly();cout<< "x se rovna : "<<x1<<"rovnice je linearni"<<endl;  }
 	return 0;
 }
